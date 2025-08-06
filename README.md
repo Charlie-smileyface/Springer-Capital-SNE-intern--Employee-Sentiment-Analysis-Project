@@ -28,13 +28,13 @@ The following employees were identified as potential flight risks, having sent 4
 *   don.baughman@enron.com
 *   eric.bass@enron.com
 
-### Key Insights and Recommendations
+### Key Insights
 
 1.  **Predominantly Negative Sentiment:** The overall sentiment across the dataset is heavily skewed towards negative. This was a consistent trend across both years analyzed.
-    *   **Recommendation:** Management should investigate the root causes of the negative communication environment. This could involve surveys, focus groups, or direct engagement with employees to understand key pain points.
+    *   **Potential Optimization:** Management should investigate the root causes of the negative communication environment. This could involve surveys, focus groups, or direct engagement with employees to understand key pain points.
 
 2.  **Flight Risk Criteria:** The current flight risk criteria (4+ negative emails in 30 days) flagged a large number of active employees.
-    *   **Recommendation:** The sensitivity of the flight risk model should be adjusted. Consider increasing the threshold for negative messages or shortening the rolling window to identify more acute periods of dissatisfaction. This metric should be used as an early warning indicator in conjunction with other HR data (e.g., absenteeism, performance reviews).
+    *   **Potential Optimization:** The sensitivity of the flight risk model should be adjusted. Consider increasing the threshold for negative messages or shortening the rolling window to identify more acute periods of dissatisfaction. This metric should be used as an early warning indicator in conjunction with other HR data (e.g., absenteeism, performance reviews).
 
 3.  **Predictive Model Limitations:** The linear regression model built to predict monthly sentiment scores showed very low predictive power (R-squared of 0.108).
-    *   **Recommendation:** For future predictive efforts, a richer dataset is required. Incorporating features beyond email data, such as HR information, project involvement, and team structure, would likely yield a more accurate model. The current features alone are insufficient to capture the complexity of employee sentiment.
+    *   **Potential Optimization:** For future predictive efforts, a richer dataset is required. Incorporating features beyond email data, such as HR information, project involvement, and team structure, would likely yield a more accurate model. The current features alone are insufficient to capture the complexity of employee sentiment.
